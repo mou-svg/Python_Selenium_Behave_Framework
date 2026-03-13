@@ -1,0 +1,20 @@
+Feature: Login Functionality # features/login.feature:1
+
+  Scenario: Valid Login                       # features/login.feature:2
+    Given user navigates to login page        # features/steps/login_steps.py:5
+    When User enters username "standard_user" # features/steps/login_steps.py:10
+    And user enters password "secret_sauce"   # None
+    And user clicks login button              # None
+    Then user should see the dashboard        # None
+----
+CAPTURED LOG: before_scenario
+LOG_INFO:WDM: ====== WebDriver manager ======
+LOG_INFO:WDM: Get LATEST chromedriver version for google-chrome
+LOG_INFO:WDM: Get LATEST chromedriver version for google-chrome
+LOG_INFO:WDM: Driver [C:\Users\mousu\.wdm\drivers\chromedriver\win64\146.0.7680.72\chromedriver-win32/chromedriver.exe] found in cache
+---- CAPTURED_SCENARIO_OUTPUT_END ----
+
+Feature: # Enter feature name here # features/search.feature:2
+
+  Scenario: # Enter scenario name here  # features/search.feature:5
+
